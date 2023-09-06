@@ -1,0 +1,65 @@
+body{
+    background:linear-gradient(50deg, #0c0c0c, #5a5858,#040303);
+}
+.s1 a:hover  {
+    color: aquamarine;
+    
+      
+}
+
+
+.s1 {
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+
+}
+.s1 img{
+    width: 75px;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    
+
+}
+.s1 a {
+    color: aliceblue;
+    margin: 20px 20px;
+    text-decoration: none ;
+    font-size: 45px;
+    
+}
+.s2 {
+    display: grid;
+    grid-template-columns: auto;
+}
+.s2 img{
+    width: 100%;
+
+}
+.s3{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+.s3 img{
+ 
+    width: 100%;
+    height: 550px;
+}
+.s4{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.s4 p{
+    color: aliceblue;
+}
+.s5{
+    display:grid;
+    grid-template-columns: auto auto auto;
+
+}
+.s5 img {
+    width: 100%;
+    height: 600px;
+}
+
+.s5 ul{
+    color: aliceblue;
+}
